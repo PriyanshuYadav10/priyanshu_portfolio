@@ -17,7 +17,7 @@ class Experience {
 List<Experience> experienceList = [
   Experience(
     title: 'Full Stack MERN Intern',
-    company: 'Kitwosd IT Support\nEmadol, Lalitpur, Nepal',
+    company: 'Kitwosd IT Support\nImadol, Lalitpur, Nepal',
     //duration: 'Apr 2024 – Sep 2024',
     duration: 'Apr 2024\nSep 2024',
     image: 'assets/images/mernInternship.jpeg',
