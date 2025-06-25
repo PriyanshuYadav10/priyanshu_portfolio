@@ -103,4 +103,4 @@ _(Built with Flutter, deployed via GitHub Pages, .np domain registration, and Cl
 ---
 
 > _Designed with ❤️ by Anil Bhattarai_
-> Portfolio • Inspired by Hamad Anwar's Portfolio
+> • Inspired by Hamad Anwar's Portfolio
