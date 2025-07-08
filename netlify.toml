@@ -1,6 +1,7 @@
 [build]
+command = "bash install_flutter.sh && flutter build web"
 publish = "build/web"
-command = "bash ./install_flutter.sh && flutter build web"
+
 
 [[plugins]]
 package = "@netlify/plugin-functions-install-core"
