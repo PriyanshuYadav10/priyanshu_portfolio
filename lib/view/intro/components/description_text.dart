@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:anilbhattarai_portfolio/view%20model/responsive.dart';
+import 'package:priyanshu_portfolio/view%20model/responsive.dart';
 
 class AnimatedDescriptionText extends StatelessWidget {
   const AnimatedDescriptionText({
@@ -40,11 +40,7 @@ class AnimatedDescriptionText extends StatelessWidget {
       TextSpan(
         children: [
           _buildTextSpan(
-            "I develop cross-platform mobile apps with Flutter ",
-            fontSize,
-          ),
-          _buildTextSpan(
-            "and full-stack web solutions using MERN stack. ",
+            "I develop cross-platform mobile apps with Flutter.",
             fontSize,
           ),
           _buildTextSpan(

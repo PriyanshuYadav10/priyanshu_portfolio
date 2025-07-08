@@ -1,4 +1,4 @@
-import 'package:anilbhattarai_portfolio/view/intro/components/social_media_coloumn.dart';
+import 'package:priyanshu_portfolio/view/intro/components/social_media_coloumn.dart';
 import 'package:flutter/material.dart';
 import '../../../res/constants.dart';
 

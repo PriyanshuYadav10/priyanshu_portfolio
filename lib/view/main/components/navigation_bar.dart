@@ -1,6 +1,6 @@
-import 'package:anilbhattarai_portfolio/view%20model/responsive.dart';
-import 'package:anilbhattarai_portfolio/view/intro/components/side_menu_button.dart';
-import 'package:anilbhattarai_portfolio/view/main/components/connect_button.dart';
+import 'package:priyanshu_portfolio/view%20model/responsive.dart';
+import 'package:priyanshu_portfolio/view/intro/components/side_menu_button.dart';
+import 'package:priyanshu_portfolio/view/main/components/connect_button.dart';
 import 'package:flutter/material.dart';
 import '../../../res/constants.dart';
 import 'navigation_button_list.dart';
@@ -22,7 +22,7 @@ class TopNavigationBar extends StatelessWidget {
                 right: defaultPadding,
                 bottom: 0),
             child: !Responsive.isLargeMobile(context)
-                ? Image.asset('assets/images/anil_logo.png')
+                ? Image.asset('assets/images/priyanshu_logo.png',fit: BoxFit.fill,)
                 : MenuButton(
                     onTap: () => Scaffold.of(context).openDrawer(),
                   ),

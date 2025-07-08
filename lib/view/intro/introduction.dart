@@ -1,7 +1,7 @@
-import 'package:anilbhattarai_portfolio/view%20model/responsive.dart';
-import 'package:anilbhattarai_portfolio/view/intro/components/intro_body.dart';
-import 'package:anilbhattarai_portfolio/view/intro/components/side_menu_button.dart';
-import 'package:anilbhattarai_portfolio/view/intro/components/social_media_list.dart';
+import 'package:priyanshu_portfolio/view%20model/responsive.dart';
+import 'package:priyanshu_portfolio/view/intro/components/intro_body.dart';
+import 'package:priyanshu_portfolio/view/intro/components/side_menu_button.dart';
+import 'package:priyanshu_portfolio/view/intro/components/social_media_list.dart';
 import 'package:flutter/material.dart';
 
 class Introduction extends StatelessWidget {

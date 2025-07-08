@@ -1,5 +1,5 @@
-import 'package:anilbhattarai_portfolio/view%20model/getx_controllers/certification_controller.dart';
-import 'package:anilbhattarai_portfolio/view/projects/components/title_text.dart';
+import 'package:priyanshu_portfolio/view%20model/getx_controllers/certification_controller.dart';
+import 'package:priyanshu_portfolio/view/projects/components/title_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../res/constants.dart';

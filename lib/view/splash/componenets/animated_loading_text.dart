@@ -1,4 +1,4 @@
-import 'package:anilbhattarai_portfolio/res/constants.dart';
+import 'package:priyanshu_portfolio/res/constants.dart';
 import 'package:flutter/material.dart';
 class AnimatedLoadingText extends StatelessWidget {
   const AnimatedLoadingText({super.key});

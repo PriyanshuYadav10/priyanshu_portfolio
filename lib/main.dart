@@ -1,5 +1,5 @@
-import 'package:anilbhattarai_portfolio/res/constants.dart';
-import 'package:anilbhattarai_portfolio/view/splash/splash_view.dart';
+import 'package:priyanshu_portfolio/res/constants.dart';
+import 'package:priyanshu_portfolio/view/splash/splash_view.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

@@ -1,4 +1,4 @@
-import 'package:anilbhattarai_portfolio/view/projects/components/project_link.dart';
+import 'package:priyanshu_portfolio/view/projects/components/project_link.dart';
 import 'package:flutter/material.dart';
 
 import '../../../model/project_model.dart';

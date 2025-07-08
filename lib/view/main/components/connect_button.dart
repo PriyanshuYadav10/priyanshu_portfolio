@@ -12,13 +12,13 @@ class ConnectButton extends StatelessWidget {
       padding: const EdgeInsets.only(top: 42, bottom: 4),
       child: InkWell(
         onTap: () {
-          launchUrl(Uri.parse('https://wa.me/+9779867294376'));
+          launchUrl(Uri.parse('https://wa.me/+917357730549'));
         },
         //borderRadius: BorderRadius.circular(defaultPadding + 10),
         borderRadius: BorderRadius.circular(defaultPadding + 20),
         child: Container(
-            height: 60,
-            width: 120,
+            height: 70,
+            width: 140,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(defaultPadding),
                 gradient: LinearGradient(colors: [

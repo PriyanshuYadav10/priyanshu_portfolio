@@ -1,5 +1,5 @@
-import 'package:anilbhattarai_portfolio/view/projects/components/image_viewer.dart';
-import 'package:anilbhattarai_portfolio/view/projects/components/project_deatail.dart';
+import 'package:priyanshu_portfolio/view/projects/components/image_viewer.dart';
+import 'package:priyanshu_portfolio/view/projects/components/project_deatail.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../model/project_model.dart';
@@ -17,7 +17,7 @@ class ProjectStack extends StatelessWidget {
         controller.onHover(index, value);
       },
       onTap: () {
-        ImageViewer(context, projectList[index].image);
+        // ImageViewer(context, projectList[index].image);
       },
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,

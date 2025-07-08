@@ -1,6 +1,6 @@
-import 'package:anilbhattarai_portfolio/res/constants.dart';
-import 'package:anilbhattarai_portfolio/view%20model/controller.dart';
-import 'package:anilbhattarai_portfolio/view/main/components/navigation_bar.dart';
+import 'package:priyanshu_portfolio/res/constants.dart';
+import 'package:priyanshu_portfolio/view%20model/controller.dart';
+import 'package:priyanshu_portfolio/view/main/components/navigation_bar.dart';
 import 'package:flutter/material.dart';
 import '../../view model/responsive.dart';
 import 'components/drawer/drawer.dart';

@@ -1,5 +1,5 @@
-import 'package:anilbhattarai_portfolio/view/main/components/drawer/contact_icons.dart';
-import 'package:anilbhattarai_portfolio/view/main/components/drawer/personal_info.dart';
+import 'package:priyanshu_portfolio/view/main/components/drawer/contact_icons.dart';
+import 'package:priyanshu_portfolio/view/main/components/drawer/personal_info.dart';
 import 'package:flutter/material.dart';
 import '../../../../res/constants.dart';
 import 'knowledges.dart';

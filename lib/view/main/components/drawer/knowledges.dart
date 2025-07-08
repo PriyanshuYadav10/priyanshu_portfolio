@@ -18,9 +18,12 @@ class Knowledges extends StatelessWidget {
             style: TextStyle(color: Colors.white),
           ),
         ),
-        KnowledgeText(knowledge: 'Flutter, Dart, Javascripts, React, Aurdino'),
-        KnowledgeText(knowledge: 'Networking, Cyber Security'),
-        KnowledgeText(knowledge: 'Git, Github'),
+        KnowledgeText(knowledge: 'Programming Languages: Dart, Flutter, Java, Kotlin, Android, C , C++'),
+        KnowledgeText(knowledge: 'State Management: MVVM, MVC, MVP, GetX, Provider, Bloc'),
+        KnowledgeText(knowledge: 'Tools & Technologies: AdMob, Google Play Console, App Store Console, Xcode, Git, SVN, GitHub, Android Studio, VS Code.'),
+        KnowledgeText(knowledge: 'Third party libraries: Google Map, Agora, Socket, Google Login, Apple Login, Firebase Firestore, Realtime Database, Firebase Messaging.'),
+        KnowledgeText(knowledge: 'Payment Gateways: Razorpay, PhonePe, SabPaisa, Airpay'),
+        KnowledgeText(knowledge: 'Version Control: Git, Github'),
       ],
     );
   }

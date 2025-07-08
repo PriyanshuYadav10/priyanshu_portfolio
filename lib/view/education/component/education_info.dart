@@ -1,15 +1,15 @@
-import 'package:anilbhattarai_portfolio/view/projects/components/image_viewer.dart';
-import 'package:anilbhattarai_portfolio/view/projects/components/project_deatail.dart';
+import 'package:priyanshu_portfolio/view/projects/components/image_viewer.dart';
+import 'package:priyanshu_portfolio/view/projects/components/project_deatail.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../model/project_model.dart';
 import '../../../res/constants.dart';
 import '../../../view model/getx_controllers/projects_controller.dart';
-import 'experience_deatail.dart';
+import 'education_deatail.dart';
 
-class ExperienceStack extends StatelessWidget {
+class EducationStack extends StatelessWidget {
   final controller = Get.put(ProjectController());
-  ExperienceStack({super.key, required this.index});
+  EducationStack({super.key, required this.index});
   final int index;
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class ExperienceStack extends StatelessWidget {
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30), color: bgColor),
         duration: const Duration(milliseconds: 500),
-        child: ExperienceDeatail(
+        child: EducationDeatail(
           index: index,
         ),
       ),

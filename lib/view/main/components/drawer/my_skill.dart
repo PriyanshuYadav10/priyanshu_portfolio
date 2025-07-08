@@ -63,11 +63,6 @@ class MySKills extends StatelessWidget {
       children: [
         AnimatedLinearProgressIndicator(
           percentage: 0.9,
-          title: 'MERN',
-          image: 'assets/icons/MERN-logo.png',
-        ),
-        AnimatedLinearProgressIndicator(
-          percentage: 0.9,
           title: 'Flutter',
           image: 'assets/icons/flutter.png',
         ),
@@ -91,6 +86,10 @@ class MySKills extends StatelessWidget {
         //     percentage: 0.5, title: 'Bloc', image: 'assets/icons/bloc.png'),
         AnimatedLinearProgressIndicator(
             percentage: 0.9, title: 'Getx', image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.9, title: 'Provider', image: 'assets/icons/dart.png'),
+        AnimatedLinearProgressIndicator(
+            percentage: 0.5, title: 'Bloc', image: 'assets/icons/dart.png'),
       ],
     );
   }

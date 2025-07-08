@@ -12,15 +12,19 @@ class ProjectLinks extends StatelessWidget {
       children: [
         Row(
           children: [
-            const Text('Check on Github',style: TextStyle(color: Colors.white),overflow: TextOverflow.ellipsis),
-            IconButton(onPressed: () {launchUrl(Uri.parse(projectList[index].link));}, icon: SvgPicture.asset('assets/icons/github.svg')),
+            InkWell(
+                onTap: (){
+                  launchUrl(Uri.parse(projectList[index].link));
+                },
+                child: const Text('Check on Live >>',overflow: TextOverflow.ellipsis,style: TextStyle(color: Colors.amber,fontWeight: FontWeight.bold))),
+       //     IconButton(onPressed: () {launchUrl(Uri.parse(projectList[index].link));}, icon: Icon(Icons.android),
           ],
         ),
         const Spacer(),
-        TextButton(
+        projectList[index].appStoreLink==''? SizedBox():TextButton(
             onPressed: () {
-              launchUrl(Uri.parse(projectList[index].link));
-            }, child: const Text('Read More>>',overflow: TextOverflow.ellipsis,style: TextStyle(color: Colors.amber,fontWeight: FontWeight.bold,fontSize: 10),))
+              launchUrl(Uri.parse(projectList[index].appStoreLink));
+            }, child: const Text('Check on Ios >>',overflow: TextOverflow.ellipsis,style: TextStyle(color: Colors.amber,fontWeight: FontWeight.bold),))
       ],
     );
   }

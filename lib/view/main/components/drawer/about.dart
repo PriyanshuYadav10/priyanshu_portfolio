@@ -1,4 +1,4 @@
-import 'package:anilbhattarai_portfolio/res/constants.dart';
+import 'package:priyanshu_portfolio/res/constants.dart';
 import 'package:flutter/material.dart';
 import 'drawer_image.dart';
 
@@ -15,17 +15,17 @@ class About extends StatelessWidget {
             const Spacer(
               flex: 2,
             ),
-            const DrawerImage(),
-            const Spacer(),
+            // const DrawerImage(),
+            // const Spacer(),
             Text(
-              'Anil Bhattarai',
+              'Priyanshu Yadav',
               style: Theme.of(context).textTheme.titleSmall,
             ),
             const SizedBox(
               height: defaultPadding / 4,
             ),
             const Text(
-              'Flutter Developer | MERN Stack Enthusiastic\nComputer Engineer',
+              'Flutter Developer',
               textAlign: TextAlign.center,
               style: TextStyle(fontWeight: FontWeight.w200, height: 1.5),
             ),

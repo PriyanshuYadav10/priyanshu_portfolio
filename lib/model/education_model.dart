@@ -16,15 +16,21 @@ class Education {
 
 List<Education> educationList = [
   Education(
-      degree: 'BE in Computer Engineering',
-      institution: 'Lumbini Engineering College\nBhalwari, Rupandehi',
-      duration: '🎓 2025',
-      description: 'Specializing in Software Development and Network Security',
-      link: 'https://lumbini.edu.np/'),
-  Education(
-      degree: '+2 in Science',
-      institution: 'Kalika Higher Secondary School\nButwal-10, Rupandehi',
+      degree: 'Secondary Education',
+      institution: 'Guru Dronacharya Public Sr. Sec. School\nJaipur, Rajasthan',
       duration: '🎓 2019',
+      description: 'Learn basic fundamentals',
+      link: ''),
+  Education(
+      degree: 'Higher Secondary Education',
+      institution: 'Guru Dronacharya Public Sr. Sec. School\nJaipur, Rajasthan',
+      duration: '🎓 2020',
       description: 'Major in Mathematics, Physics & Chemistry',
-      link: 'https://kalikaschoolbtl.edu.np/'),
+      link: ''),
+  Education(
+      degree: 'BCA',
+      institution: 'Stani Memorial P.G. College\nJaipur, Rajasthan',
+      duration: '🎓 2024',
+      description: 'Specializing in Software Development',
+      link: ''),
 ];

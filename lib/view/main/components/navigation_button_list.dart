@@ -1,5 +1,5 @@
-import 'package:anilbhattarai_portfolio/view%20model/controller.dart';
-import 'package:anilbhattarai_portfolio/view%20model/responsive.dart';
+import 'package:priyanshu_portfolio/view%20model/controller.dart';
+import 'package:priyanshu_portfolio/view%20model/responsive.dart';
 import 'package:flutter/material.dart';
 
 import 'navigation_button.dart';
@@ -56,13 +56,13 @@ class NavigationButtonList extends StatelessWidget {
                             curve: Curves.easeIn);
                       },
                       text: 'Educations'),
-                NavigationTextButton(
-                    onTap: () {
-                      controller.animateToPage(4,
-                          duration: const Duration(milliseconds: 500),
-                          curve: Curves.easeIn);
-                    },
-                    text: 'Certifications'),
+                // NavigationTextButton(
+                //     onTap: () {
+                //       controller.animateToPage(4,
+                //           duration: const Duration(milliseconds: 500),
+                //           curve: Curves.easeIn);
+                //     },
+                //     text: 'Certifications'),
                 // NavigationTextButton(onTap: () {}, text: 'Achievements'),
               ],
             ),

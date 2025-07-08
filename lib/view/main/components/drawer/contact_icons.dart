@@ -16,12 +16,12 @@ class ContactIcon extends StatelessWidget {
           const Spacer(),
           IconButton(
               onPressed: () {
-                launchUrl(Uri.parse('https://linkedin.com/in/CREALIFY'));
+                launchUrl(Uri.parse('https://www.linkedin.com/in/priyanshu-yadav-935020242/'));
               },
               icon: SvgPicture.asset('assets/icons/linkedin.svg')),
           IconButton(
               onPressed: () {
-                launchUrl(Uri.parse('https://github.com/Crealify'));
+                launchUrl(Uri.parse('https://github.com/PriyanshuYadav10/'));
               },
               icon: SvgPicture.asset('assets/icons/github.svg')),
           // IconButton(

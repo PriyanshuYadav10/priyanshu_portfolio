@@ -1,20 +1,21 @@
+import 'package:priyanshu_portfolio/model/education_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../model/experience_model.dart';
 import '../../../res/constants.dart';
 import '../../../view model/getx_controllers/projects_controller.dart';
-import 'experience_info.dart';
-class ExperienceGrid extends StatelessWidget {
+import 'education_info.dart';
+class EducationGrid extends StatelessWidget {
   final int crossAxisCount;
   final double ratio;
-  ExperienceGrid({super.key, this.crossAxisCount = 3,  this.ratio=1.3});
+  EducationGrid({super.key, this.crossAxisCount = 3,  this.ratio=1.3});
   final controller = Get.put(ProjectController());
   @override
 
   Widget build(BuildContext context) {
     return GridView.builder(
-      padding: const EdgeInsets.symmetric(horizontal: 30),
-      itemCount: experienceList.length,
+      padding: const EdgeInsets.symmetric(horizontal: 10),
+      itemCount: educationList.length,
       gridDelegate:  SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: crossAxisCount, childAspectRatio: ratio),
       itemBuilder: (context, index) {
@@ -39,7 +40,7 @@ class ExperienceGrid extends StatelessWidget {
                     offset: const Offset(2, 0),
                     blurRadius: controller.hovers[index] ? 20 : 10,),
                 ]),
-            child: ExperienceStack(index: index)
+            child: EducationStack(index: index)
         ));
       },
     );
